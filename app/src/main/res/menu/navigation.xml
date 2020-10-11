@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Schedule"
+        android:icon="@drawable/ic_outline_event_note_24"
+        android:title="@string/schedule"/>
+    <item
+        android:id="@+id/Notes"
+        android:icon="@drawable/ic_outline_note_24"
+        android:title="@string/notes"
+        />
+    <item
+        android:id="@+id/Profile"
+        android:icon="@drawable/ic_outline_person_outline_24"
+        android:title="@string/profile"
+        />
+
+
+</menu>

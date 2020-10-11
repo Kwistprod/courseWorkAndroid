@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/bottomNav</item>
+        <item name="actionBarStyle">@style/myactionbar</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+    <style name="myactionbar" parent="Widget.MaterialComponents.Light.ActionBar.Solid">
+        <item name="background">@color/bottomNav</item>
+    </style>
+
+</resources>
