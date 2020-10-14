@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.myapplication.CallBackFragments.ScheduleCallback;
+import com.example.myapplication.Controllers.UserController.UserController;
 import com.example.myapplication.R;
 import com.example.myapplication.Controllers.ScheduleController.RVAdapter;
 import com.example.myapplication.Controllers.ScheduleController.ScheduleController;
@@ -59,6 +60,7 @@ public class ScheduleFragment extends Fragment implements ScheduleCallback {
         view = inflater.inflate(R.layout.fragment_schedule, container, false);
         rv = (RecyclerView) view.findViewById(R.id.rv);
         if(isLoaded == false) {
+            this.mID = this.mID == null ? UserController.getUserId() : this.mID;
             ScheduleController.fetchData(this.mID, this);
         }else {
             initAdapter(days);

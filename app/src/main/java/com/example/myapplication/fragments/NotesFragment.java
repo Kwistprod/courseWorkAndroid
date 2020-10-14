@@ -14,6 +14,7 @@ import android.widget.Button;
 import com.example.myapplication.CallBackFragments.NotesCallback;
 import com.example.myapplication.Controllers.NotesController.NotesController;
 import com.example.myapplication.Controllers.NotesController.RVNOTEAdapter;
+import com.example.myapplication.Controllers.UserController.UserController;
 import com.example.myapplication.R;
 import com.example.myapplication.models.note.Note;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -63,6 +64,7 @@ public class NotesFragment extends Fragment implements NotesCallback {
         view = inflater.inflate(R.layout.fragment_notes, container, false);
         rv = (RecyclerView) view.findViewById(R.id.rv_notes);
         if(isLoaded == false) {
+            this.mID = this.mID == null ? UserController.getUserId() : this.mID;
             NotesController.fetchData(this.mID, this);
         }else {
             initNotesFragment(notes);

@@ -18,7 +18,6 @@ import com.example.myapplication.fragments.RegisterFragment;
 import com.example.myapplication.fragments.ScheduleFragment;
 import com.example.myapplication.CallBackFragments.CallBackFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 public class MainActivity extends AppCompatActivity implements CallBackFragment, ChangeState {
 
     private BottomNavigationView  bottomNavigationView;
