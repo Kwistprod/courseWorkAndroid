@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">StudentHelper</string>
     <string name="schedule">Schedule</string>
     <string name="notes">Notes</string>
     <string name="profile">Profile</string>
