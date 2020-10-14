@@ -1,4 +1,4 @@
-package com.example.myapplication.ScheduleController;
+package com.example.myapplication.Controllers.ScheduleController;
 
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myapplication.R;
 import com.example.myapplication.models.schedule.DaysOfWeek.Day;
-import com.example.myapplication.models.schedule.Schedule;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textview.MaterialTextView;
 

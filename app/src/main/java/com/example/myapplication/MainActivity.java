@@ -9,18 +9,15 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.example.myapplication.ChangeState.ChangeState;
-import com.example.myapplication.UserController.UserController;
-import com.example.myapplication.UserController.UserPreference;
+import com.example.myapplication.CallBackFragment.ChangeState.ChangeState;
+import com.example.myapplication.Controllers.UserController.UserController;
+import com.example.myapplication.Controllers.UserController.UserPreference;
 import com.example.myapplication.fragments.NotesFragment;
 import com.example.myapplication.fragments.ProfileFragment;
 import com.example.myapplication.fragments.RegisterFragment;
 import com.example.myapplication.fragments.ScheduleFragment;
 import com.example.myapplication.CallBackFragment.CallBackFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity implements CallBackFragment, ChangeState {
 

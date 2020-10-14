@@ -12,15 +12,11 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.myapplication.CallBackFragment.NotesCallback;
-import com.example.myapplication.NotesController.NotesController;
-import com.example.myapplication.NotesController.RVNOTEAdapter;
+import com.example.myapplication.Controllers.NotesController.NotesController;
+import com.example.myapplication.Controllers.NotesController.RVNOTEAdapter;
 import com.example.myapplication.R;
-import com.example.myapplication.ScheduleController.RVAdapter;
-import com.example.myapplication.ScheduleController.ScheduleController;
 import com.example.myapplication.models.note.Note;
-import com.example.myapplication.models.schedule.DaysOfWeek.Day;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 import java.util.List;
 

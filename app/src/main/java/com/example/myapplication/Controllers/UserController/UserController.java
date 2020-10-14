@@ -1,4 +1,4 @@
-package com.example.myapplication.UserController;
+package com.example.myapplication.Controllers.UserController;
 
 import com.example.myapplication.models.user.User;
 

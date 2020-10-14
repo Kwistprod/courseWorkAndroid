@@ -13,8 +13,8 @@ import android.widget.Button;
 
 import com.example.myapplication.CallBackFragment.ScheduleCallback;
 import com.example.myapplication.R;
-import com.example.myapplication.ScheduleController.RVAdapter;
-import com.example.myapplication.ScheduleController.ScheduleController;
+import com.example.myapplication.Controllers.ScheduleController.RVAdapter;
+import com.example.myapplication.Controllers.ScheduleController.ScheduleController;
 import com.example.myapplication.models.schedule.DaysOfWeek.Day;
 
 import java.util.List;

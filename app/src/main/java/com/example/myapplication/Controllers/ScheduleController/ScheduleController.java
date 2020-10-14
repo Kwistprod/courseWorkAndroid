@@ -1,6 +1,4 @@
-package com.example.myapplication.ScheduleController;
-
-import android.widget.Toast;
+package com.example.myapplication.Controllers.ScheduleController;
 
 import com.example.myapplication.CallBackFragment.ScheduleCallback;
 import com.example.myapplication.NetworkService.NetworkController;

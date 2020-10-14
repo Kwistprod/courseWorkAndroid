@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.example.myapplication.CallBackFragment.CallBackFragment;
-import com.example.myapplication.ChangeState.ChangeState;
+import com.example.myapplication.CallBackFragment.ChangeState.ChangeState;
 import com.example.myapplication.NetworkService.NetworkController;
 import com.example.myapplication.R;
-import com.example.myapplication.UserController.UserController;
+import com.example.myapplication.Controllers.UserController.UserController;
 import com.example.myapplication.models.user.User;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
