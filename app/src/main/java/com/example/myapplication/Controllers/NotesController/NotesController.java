@@ -1,6 +1,6 @@
 package com.example.myapplication.Controllers.NotesController;
 
-import com.example.myapplication.CallBackFragment.NotesCallback;
+import com.example.myapplication.CallBackFragments.NotesCallback;
 import com.example.myapplication.NetworkService.NetworkController;
 import com.example.myapplication.models.note.Note;
 

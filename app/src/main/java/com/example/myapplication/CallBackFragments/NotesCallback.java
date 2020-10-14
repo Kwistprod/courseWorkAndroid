@@ -1,4 +1,4 @@
-package com.example.myapplication.CallBackFragment;
+package com.example.myapplication.CallBackFragments;
 
 import com.example.myapplication.models.note.Note;
 

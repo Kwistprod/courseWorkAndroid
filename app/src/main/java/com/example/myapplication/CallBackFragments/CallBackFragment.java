@@ -1,4 +1,4 @@
-package com.example.myapplication.CallBackFragment;
+package com.example.myapplication.CallBackFragments;
 
 import androidx.fragment.app.Fragment;
 

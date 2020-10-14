@@ -1,6 +1,6 @@
 package com.example.myapplication.Controllers.ScheduleController;
 
-import com.example.myapplication.CallBackFragment.ScheduleCallback;
+import com.example.myapplication.CallBackFragments.ScheduleCallback;
 import com.example.myapplication.NetworkService.NetworkController;
 import com.example.myapplication.models.schedule.DaysOfWeek.Day;
 import com.example.myapplication.models.schedule.Schedule;
